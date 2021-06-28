@@ -36,7 +36,7 @@
 
 </script>
 
-<h1>Two-books Bookstore</h1>
+<h1>Bookstore</h1>
 
 <table style="width: 100%">
 	<tr>
