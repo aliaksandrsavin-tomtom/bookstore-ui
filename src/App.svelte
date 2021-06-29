@@ -29,14 +29,22 @@
 	}
 
 	onMount(() => {
+		/*getBooks(function (body) {
+			books = body
+		})*/
+	})
+
+	function onSearchClick() {
 		getBooks(function (body) {
 			books = body
 		})
-	})
+	}
 
 </script>
 
 <h1>Bookstore</h1>
+
+<button type="button" on:click={onSearchClick}>Search</button>
 
 <table style="width: 100%">
 	<tr>
